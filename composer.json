@@ -21,6 +21,7 @@
             "role": "lead"
         }
     ],
+<<<<<<< HEAD
     "version": "3.0.0alpha3",
     "time": "2021-02-24",
     "repositories": [
@@ -38,6 +39,25 @@
     },
     "suggest": {
         "horde/test": "^3"
+=======
+    "version": "2.1.0",
+    "time": "2020-10-27",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://horde-satis.maintaina.com"
+        }
+    ],
+    "require": {
+        "horde/horde-installer-plugin": "dev-master",
+        "php": "^5.3 || ^7",
+        "ext-ctype": "*",
+        "horde/exception": "dev-master",
+        "horde/util": "dev-master"
+    },
+    "suggest": {
+        "horde/test": "^2.1"
+>>>>>>> d3044b38e0926fbfcf161c81b6709f1c737c039e
     },
     "autoload": {
         "psr-0": {
