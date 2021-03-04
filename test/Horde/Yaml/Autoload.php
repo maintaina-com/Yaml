@@ -11,4 +11,7 @@
  * @license    http://www.horde.org/licenses/bsd BSD
  */
 
-require_once __DIR__ . '/Helpers.php';
+if ( !class_exists('Horde\Yaml\Helper\TestSerializable') ) {
+     require_once __DIR__ . '/Helper/TestSerializable.php';
+     require_once __DIR__ . '/Helper/TestNotSerializable.php';
+}

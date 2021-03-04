@@ -8,13 +8,16 @@
  * @package    Yaml
  * @subpackage UnitTests
  */
-
+namespace Horde\Yaml\Helper;
+use \Serializable;
+use \Exception;
 /**
  * @category   Horde
  * @package    Yaml
  * @subpackage UnitTests
  */
-class Horde_Yaml_Test_Serializable implements Serializable
+class TestSerializable implements Serializable
+
 {
     private $string = null;
 
@@ -42,6 +45,3 @@ class Horde_Yaml_Test_Serializable implements Serializable
     }
 
 }
-
-class Horde_Yaml_Test_NotSerializable
-{}
